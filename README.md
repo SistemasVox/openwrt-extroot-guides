@@ -1,9 +1,10 @@
 # Guias de extroot e armazenamento USB no OpenWrt
 
-Este repositório reúne procedimentos para ampliar o armazenamento gravável de roteadores OpenWrt com um pendrive, configurar swap e diagnosticar problemas de USB/extroot após a reinicialização.
+Este repositório reúne procedimentos para ampliar o armazenamento gravável de roteadores OpenWrt com um pendrive, configurar swap e diagnosticar problemas de USB/extroot após a reinicialização. O tutorial principal é baseado em uma configuração que funcionou em um TP-Link Archer C5 v4; os comandos de pacote e kernel não devem ser copiados para outros modelos sem conferência.
 
 ## Guias
 
+- [Tutorial passo a passo para iniciantes: extroot, USB 2.0 e swap de 512 MiB](TUTORIAL_EXTROOT_USB2_PASSO_A_PASSO.md) — procedimento copiável, com avisos de segurança e distinção entre o Archer C5 v4 testado e outros modelos.
 - [Instalação em outro roteador e pendrive](GUIA_EXTROOT_NOVO_ROTEADOR_PENDRIVE.md) — preparação, drivers, particionamento, extroot, swap, testes e recuperação.
 - [Recuperação do extroot e diagnóstico USB](GUIA_RECUPERACAO_EXTROOT_USB2.md) — verificações de boot, módulos USB/kernel, Wi-Fi e WireGuard, montagem e desempenho.
 
